@@ -52,5 +52,15 @@ public class TestTablePageData extends AbstractTablePageData {
 	public static class TestTableRowData extends AbstractTableRowData {
 
 		private static final long serialVersionUID = 1L;
+		public static final String gittest = "gittest";
+		private String m_gittest;
+
+		public String getGittest() {
+			return m_gittest;
+		}
+
+		public void setGittest(String newGittest) {
+			m_gittest = newGittest;
+		}
 	}
 }
